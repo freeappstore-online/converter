@@ -1,0 +1,13 @@
+{
+  "name": "converter",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": { "node": ">=22" },
+  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "scripts": {
+    "dev": "pnpm --filter @converter/web dev",
+    "build": "pnpm --filter @converter/web build",
+    "preview": "pnpm --filter @converter/web preview",
+    "typecheck": "pnpm --filter @converter/web exec tsc -b"
+  }
+}
