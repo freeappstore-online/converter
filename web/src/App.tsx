@@ -110,7 +110,7 @@ export function App() {
         minHeight: "100vh",
         background: "var(--color-paper)",
         color: "var(--color-ink)",
-        fontFamily: "var(--font-body)",
+        fontFamily: "Manrope, system-ui, sans-serif",
       }}
     >
       {/* Header */}
@@ -125,7 +125,7 @@ export function App() {
       >
         <h1
           style={{
-            fontFamily: "var(--font-display)",
+            fontFamily: "Fraunces, Georgia, serif",
             fontSize: "1.25rem",
             fontWeight: 700,
             margin: 0,
@@ -170,7 +170,7 @@ export function App() {
                 fontSize: "0.875rem",
                 fontWeight: 500,
                 cursor: "pointer",
-                fontFamily: "var(--font-body)",
+                fontFamily: "Manrope, system-ui, sans-serif",
                 transition: "background 0.15s, color 0.15s",
               }}
             >
@@ -195,7 +195,7 @@ export function App() {
             border: "1px solid var(--color-line)",
             borderRadius: "var(--radius-card)",
             outline: "none",
-            fontFamily: "var(--font-body)",
+            fontFamily: "Manrope, system-ui, sans-serif",
             marginBottom: "1rem",
           }}
         />
@@ -220,7 +220,7 @@ export function App() {
               color: "var(--color-ink)",
               border: "1px solid var(--color-line)",
               borderRadius: "var(--radius-btn)",
-              fontFamily: "var(--font-body)",
+              fontFamily: "Manrope, system-ui, sans-serif",
               cursor: "pointer",
             }}
           >
@@ -265,7 +265,7 @@ export function App() {
               color: "var(--color-ink)",
               border: "1px solid var(--color-line)",
               borderRadius: "var(--radius-btn)",
-              fontFamily: "var(--font-body)",
+              fontFamily: "Manrope, system-ui, sans-serif",
               cursor: "pointer",
             }}
           >
@@ -288,7 +288,7 @@ export function App() {
         >
           <div
             style={{
-              fontFamily: "var(--font-display)",
+              fontFamily: "Fraunces, Georgia, serif",
               fontSize: "2.5rem",
               fontWeight: 700,
               color: "var(--color-ink)",
@@ -304,7 +304,7 @@ export function App() {
         <div>
           <h2
             style={{
-              fontFamily: "var(--font-display)",
+              fontFamily: "Fraunces, Georgia, serif",
               fontSize: "1rem",
               fontWeight: 700,
               marginBottom: "0.75rem",
